@@ -21,23 +21,26 @@ A lightweight, production-ready REST API built with Express.js and Nodemailer. T
 
 1. **Clone the repository:**
    
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone https://github.com/Gaurav-Chaudhary1/Send-Email-API.git
    
    cd your-repo-name
 
 2. Install dependencies:
+   
    npm install
 
-3. Environment Variables:
+4. Environment Variables:
    
    Create a .env file in the root directory. You must generate a 16-letter "App Password" from your Google Account settings to use Gmail SMTP.
+   
    PORT=5000
    
    EMAIL_USER=your_email@gmail.com
    
    EMAIL_PASS=your_16_letter_app_password
 
-4. Start the server:
+6. Start the server:
 
    node server.js
    
+
